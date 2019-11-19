@@ -16,15 +16,15 @@ public class ValueGuest extends Guest {
     }
 
     public String getSavingsNumber() {
-        return savingsNumber;
+        return this.savingsNumber;
     }
 
     public int getNumberOfBookings() {
-        return numberOfBookings;
+        return this.numberOfBookings;
     }
 
     public double getAmountSpentWithHotel() {
-        return amountSpentWithHotel;
+        return this.amountSpentWithHotel;
     }
 
     }
